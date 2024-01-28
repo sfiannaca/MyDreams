@@ -40,3 +40,6 @@ Explore and manage your dreams with privacy offline. Easily share, analyze, and 
 
 8. **Multilingual support:**
    - Support for English and Italian languages
+
+ ## Notes
+  I made this app just for learning and playing with Flutter, tested on Android, Linux and Windows.
