@@ -1,0 +1,61 @@
+name: diaryofdreams
+description: A dedicated personal app designed to help me record and manage my dreams
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0
+
+environment:
+  sdk: '>=3.2.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  flutter_localizations:
+    sdk: flutter
+
+  intl: ^0.18.1
+  shared_preferences: ^2.2.0
+  provider: ^6.0.5
+  isar: ^3.1.0+1
+  isar_flutter_libs: ^3.1.0+1
+  flutter_launcher_icons: ^0.13.1
+  file_picker: ^6.1.1
+  path_provider: ^2.0.15
+  permission_handler: ^11.1.0
+  share_plus: ^7.0.2
+  excel: ^4.0.0
+  toggle_switch: ^2.1.0
+  flutter_heatmap_calendar:
+    git:
+      url: https://github.com/salvatorefiannaca/flutter_heatmap_calendar.git
+      ref: main
+  share_plus_platform_interface: ^3.2.0
+  window_size:
+    git:
+      url: https://github.com/google/flutter-desktop-embedding.git
+      path: plugins/window_size
+      ref: main
+  modal_bottom_sheet: ^3.0.0-pre
+  google_fonts: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  isar_generator: ^3.1.0+1
+  build_runner: ^2.4.6
+
+flutter:
+  generate: true
+  uses-material-design: true
+  assets:
+    - assets/
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/app-icon.png"
+  min_sdk_android: 21
+    
